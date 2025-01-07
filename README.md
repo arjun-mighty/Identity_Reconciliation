@@ -71,8 +71,8 @@ You can use Postman to test the `POST /identify` API endpoint for identity recon
   
 ```plaintext
  {
-"email": "user@example.com",
-"phoneNumber": "1234567890"
+"email": "user1@example.com",
+"phoneNumber": 1234567890
 }
 ```
 ### 5. Send the Request
@@ -85,8 +85,8 @@ You should receive a JSON response with the following format if the server is ru
 ```plaintext
 {
 "primaryContactId": 1,
-"emails": ["user@example.com"],
-"phoneNumbers": ["1234567890"],
+"emails": ["user1@example.com"],
+"phoneNumbers": [1234567890],
 "secondaryContactIds": []
 }
 ```
