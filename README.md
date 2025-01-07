@@ -5,9 +5,10 @@
 
 ## Tech Stack
 
+-**Python Version**: 3
 - **Backend Framework**: Flask
 - **Database**: SQLite (using SQLAlchemy for ORM)
-- **Python Version**: 3.x
+  
 - **Libraries**:
   - Flask
   - Flask-SQLAlchemy
